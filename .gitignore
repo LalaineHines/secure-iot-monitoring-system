@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc 
+venv/
+.env
+
+certs/*.key
+certs/*.pem
+
+.idea/
+.vscode/
