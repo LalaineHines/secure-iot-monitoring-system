@@ -1,7 +1,7 @@
 # Secure IoT Monitoring System
 
 ## Overview
-Secure MQTT-based sensor monitoring system using TLS encryption
+Secure MQTT-based sensor monitoring system uses TLS encryption to protect sensor data
 
 ## Features
 - TLS Encryption
@@ -15,12 +15,16 @@ Secure MQTT-based sensor monitoring system using TLS encryption
 - Mosquitto
 - TLS
 
+## How to Run
+1. Install requirements
+2. Start Broker
+3. Run Publisher
+4. Run Subscriber
+
 ## Architecture
 [diagram]
 
 ## Security Controls
-- Mutual Authentication
-- Encryption in Transit
-- Access Control
-
-## Lesson Learned
+- TLS Encryption
+- Authentication
+- Logging
